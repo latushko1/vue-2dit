@@ -5,7 +5,6 @@ import {products} from "../data";
 
 <template>
 <section class="w-[1100px] mx-auto pt-[60px] px-[200px]">
-  Продукты
   <div class="grid grid-cols-3 gap-[36px]">
     <Card
       v-for="(product, index) in products"
